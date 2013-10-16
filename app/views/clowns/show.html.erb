@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @clown.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @clown.age %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @clown.color %>
+</p>
+
+<%= link_to 'Edit', edit_clown_path(@clown) %> |
+<%= link_to 'Back', clowns_path %>
